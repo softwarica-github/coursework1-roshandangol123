@@ -126,7 +126,6 @@ class FuzzerGUI:
             url = self.hidden_directories_listbox.get(index)
             webbrowser.open_new(url)
 
-# Create the Tkinter application
 root = tk.Tk()
 app = FuzzerGUI(root)
 root.mainloop()
